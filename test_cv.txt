@@ -1,0 +1,52 @@
+Sraddheya Gurung
++44 07843999504 |ggsraddheya@gmail.com |www.linkedin.com/in/sraddheya-gurung |https://github.com/Sraddheya
+Education
+University of Edinburgh Edinburgh, United Kingdom
+BSc (Hons) Computer Science: First Class (1:1) Honours Sep 2019 – July 2023
+The British School Kathmandu, Nepal
+A-Levels: Computer Science(A*), Mathematics(A), English Literature(A), Chemistry(A) Sep 2017 – June 2019
+Experience
+Software Engineering Intern Jul 2022 – Sep 2022
+Publicis Sapient London, United Kingdom
+•Led the front-end development for a full-stack project using HTML, CSS, React & integrated Amazon APIs for
+seamless data exchange.
+•Translated technical terms and architecture solutions into clear formats for collaboration with project managers
+and effective client presentations.
+•Completed a Full Stack Development training course, advancing proficiency in MongoDB, SQL, Java & Docker.
+College Ambassador Sep 2022 – Apr 2023
+The University of Edinburgh, Edinburgh Innovations Edinburgh, United Kingdom
+•Oversaw Edinburgh Innovations’ events calendar, prioritizing top 10 impactful events out of 40+ weekly options.
+•Managed and created campaigns and leads on Salesforce to analyse the progression of students on their start-up
+journey.
+•Acquired 200+ new clients by organizing stalls and presentations to lectures of 40+ students. Facilitated 20+ events
+and led two impactful events focused on women-led and LGBTQ+ businesses, drawing a turnout of 40 students.
+President May 2021 – Apr 2022
+Edinburgh Hoppers (Society for Gender Minorities in Informatics) Edinburgh, United Kingdom
+•Managed a 12-member committee and fostered partnerships with tech firms across Scotland and England to secure
+a£12,000 budget for the academic year.
+•Orchestrated over 20 diverse events catering to 600+ students & staff including Hoppers’ first hackathon ‘AdaHack’
+which had sign up of 100 students.
+•Collaborated with engineers and designers to create dynamic event websites for the ‘AdaHack’ hackathon, ‘Women
+EmpowerED’ conference, and Hoppers society main website using HTML, CSS, and Jekyll.
+Communications Intern May 2021 – Aug 2021
+The University of Edinburgh, School of Informatics Edinburgh, United Kingdom
+•Managed content and communication for the School of Informatics platforms, acting as a primary contact for all
+incoming postgraduate and undergraduate students.
+•Contributed to planning and executing impactful virtual events for 600+ incoming students and presented in two
+live sessions.
+•Conducted comprehensive user engagement analysis of the School of Informatics website using Google Analytics,
+eye-tracking, card sorting & cognitive walkthroughs. Conducted a research summary of the best practices of similar
+web pages on other leading universities’ websites. Developed solutions for identified user pain points using findings.
+Selected Projects
+Mobile Client for the E-cclesia Electronic Voting Protocol |Java May 2023
+Developed a mobile Android application for E-cclesia, a blockchain-based voting system, using Android Studio and Java.
+Enhanced user experience by conducting user interviews and a literature review of 70+ papers to create informed designs
+in Figma and develop the final prototype. The aim was to create a usable interface despite the unique challenges posed
+by E-cclesia’s technical language and unconventional process flow.
+COVID-19 Shielding Food Box Delivery System |Java Apr 2021
+Designed a food box delivery system using UML class models, sequence diagrams and communications diagrams.
+Designed unit and system level tests for the entire system using JUnit tests and performed successful data exchange from
+Web servers using Http requests.
+Skills and Interests
+Languages : Java, Python, HTML, CSS, SQL, JavaScript
+Technologies : GitHub, React, Google Analytics, Figma, Salesforce, Trello, AWS, Docker
