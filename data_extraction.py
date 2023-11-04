@@ -1,6 +1,7 @@
 # Files are all local to machine. This must be ammended.
 
 # pip install PyPDF2
+# pip install anthropic
 
 import PyPDF2
  
@@ -33,22 +34,15 @@ text=pageobj.extract_text()
 
 #-----------------------------------------------------------------------
 
-import requests
+from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
 
-API_KEY = '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'
+# Name
+anthropic = Anthropic(api_key="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")
+nameCompletion = anthropic.completions.create(
+    model="claude-2",
+    max_tokens_to_sample=300,
+    prompt=f"{HUMAN_PROMPT} What is the name of the owner of this resume? Return only the name. <resume>{text}<resume> {AI_PROMPT}",
+)
+name = nameCompletion.completion
+print(name)
 
-def query(payload):
-    response = requests.post('https://api.anthropic.com/v1/query', 
-        json=payload,
-        headers={'Authorization': f'Bearer {API_KEY}'})
-    return response.json()
-
-payload = {
-  'query': 'Hello Claude!'
-}
-
-response = query(payload)
-print(response)
-
-#const userQuestion = "Why is the sky blue?";
-#const prompt = `\n\nHuman: ${userQuestion}\n\nAssistant:`;
