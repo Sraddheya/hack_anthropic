@@ -28,5 +28,27 @@ text=pageobj.extract_text()
 #go to the file location copy the path by right clicking on the file
 #click properties and copy the location path and paste it here.
 #put "\\your_txtfilename"
-file1=open(r"C:\Users\ggsra\Projects\hack_anthropic\test_cv.txt","a")
-file1.writelines(text)
+#file1=open(r"C:\Users\ggsra\Projects\hack_anthropic\test_cv.txt","a")
+#file1.writelines(text)
+
+#-----------------------------------------------------------------------
+
+import requests
+
+API_KEY = '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'
+
+def query(payload):
+    response = requests.post('https://api.anthropic.com/v1/query', 
+        json=payload,
+        headers={'Authorization': f'Bearer {API_KEY}'})
+    return response.json()
+
+payload = {
+  'query': 'Hello Claude!'
+}
+
+response = query(payload)
+print(response)
+
+#const userQuestion = "Why is the sky blue?";
+#const prompt = `\n\nHuman: ${userQuestion}\n\nAssistant:`;
