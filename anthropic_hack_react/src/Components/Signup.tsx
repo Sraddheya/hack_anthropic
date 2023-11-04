@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
 const Signup: React.FC = () => {
   const [email, setEmail] = useState("");
