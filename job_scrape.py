@@ -50,7 +50,6 @@ suitability_format = """{
     "description": xxxx}"""
 
 from bs4 import BeautifulSoup
-from selenium import webdriver
 
 import requests
 
