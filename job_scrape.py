@@ -62,7 +62,7 @@ for job_link in jobs:
     job_summary = anthropic.completions.create(
         model="claude-2",
         max_tokens_to_sample=3000,
-        prompt=f"{HUMAN_PROMPT} You will be given some html that contains a descriptions for a job. Extract the following information and present it as a where each element is in the JSON format: {output_format}. Provide only the JSON and nothing else. Make sure to remove all html tags and newline characters from the text <html>{job}</html> {AI_PROMPT}",
+        prompt=f"{HUMAN_PROMPT} You will be given some html that contains a descriptions for a job. Extract the following information and present it as a where each element is in the JSON format: {output_format}. Do not provide any preamble or closing, just the raw JSON. Make sure to remove all html tags and newline characters from the text <html>{job}</html> {AI_PROMPT}",
     )
     jjson = job_summary.completion
     print(jjson)
